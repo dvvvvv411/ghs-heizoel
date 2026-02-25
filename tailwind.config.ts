@@ -21,9 +21,9 @@ export default {
 			colors: {
 				// Design System Farben
 			hill: {
-					green: '#19d00b',
-					'green-dark': '#14a809',
-					'green-light': '#2eef1a',
+					green: '#10b981',
+					'green-dark': '#059669',
+					'green-light': '#34d399',
 					white: '#ffffff',
 					gray: '#f8f9fa',
 					'gray-light': '#ffffff',
@@ -33,17 +33,17 @@ export default {
 					success: '#28a745',
 				},
 				'accent-orange': {
-					DEFAULT: '#19d00b',
-					50: '#f0fdf0',
-					100: '#dcfce7',
-					200: '#bbf7d0',
-					300: '#86efac',
-					400: '#4ade80',
-					500: '#19d00b',
-					600: '#14a809',
-					700: '#15803d',
-					800: '#166534',
-					900: '#14532d'
+					DEFAULT: '#10b981',
+					50: '#ecfdf5',
+					100: '#d1fae5',
+					200: '#a7f3d0',
+					300: '#6ee7b7',
+					400: '#34d399',
+					500: '#10b981',
+					600: '#059669',
+					700: '#047857',
+					800: '#065f46',
+					900: '#064e3b'
 				},
 				'handelsblatt': {
 					orange: '#ef6400',
@@ -54,18 +54,18 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 			primary: {
-					DEFAULT: '#19d00b',
+					DEFAULT: '#10b981',
 					foreground: '#ffffff',
-					50: '#f0fdf0',
-					100: '#dcfce7',
-					200: '#bbf7d0',
-					300: '#86efac',
-					400: '#4ade80',
-					500: '#19d00b',
-					600: '#14a809',
-					700: '#15803d',
-					800: '#166534',
-					900: '#14532d'
+					50: '#ecfdf5',
+					100: '#d1fae5',
+					200: '#a7f3d0',
+					300: '#6ee7b7',
+					400: '#34d399',
+					500: '#10b981',
+					600: '#059669',
+					700: '#047857',
+					800: '#065f46',
+					900: '#064e3b'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -230,10 +230,10 @@ export default {
 				},
 			'glow-pulse': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px rgba(25, 208, 11, 0.3)'
+						boxShadow: '0 0 20px rgba(16, 185, 129, 0.3)'
 					},
 					'50%': {
-						boxShadow: '0 0 40px rgba(25, 208, 11, 0.5)'
+						boxShadow: '0 0 40px rgba(16, 185, 129, 0.5)'
 					}
 				}
 			},
@@ -261,9 +261,9 @@ export default {
 				'medium': '0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 25px -5px rgba(0, 0, 0, 0.04)',
 				'strong': '0 10px 40px -10px rgba(0, 0, 0, 0.15), 0 4px 25px -5px rgba(0, 0, 0, 0.08)',
 				'glass': '0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04)',
-				'premium': '0 20px 60px -15px rgba(25, 208, 11, 0.2), 0 10px 30px -10px rgba(0, 0, 0, 0.1)',
-				'glow-primary': '0 0 30px rgba(25, 208, 11, 0.25), 0 0 60px rgba(25, 208, 11, 0.1)',
-				'glow-orange': '0 0 30px rgba(25, 208, 11, 0.25), 0 0 60px rgba(25, 208, 11, 0.1)',
+				'premium': '0 20px 60px -15px rgba(16, 185, 129, 0.2), 0 10px 30px -10px rgba(0, 0, 0, 0.1)',
+				'glow-primary': '0 0 30px rgba(16, 185, 129, 0.25), 0 0 60px rgba(16, 185, 129, 0.1)',
+				'glow-orange': '0 0 30px rgba(16, 185, 129, 0.25), 0 0 60px rgba(16, 185, 129, 0.1)',
 			},
 			backdropBlur: {
 				'xs': '2px',
