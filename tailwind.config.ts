@@ -21,9 +21,9 @@ export default {
 			colors: {
 				// Design System Farben
 			hill: {
-					green: '#e03c20',
-					'green-dark': '#c73418',
-					'green-light': '#f25538',
+					green: '#19d00b',
+					'green-dark': '#14a809',
+					'green-light': '#2eef1a',
 					white: '#ffffff',
 					gray: '#f8f9fa',
 					'gray-light': '#ffffff',
@@ -32,19 +32,18 @@ export default {
 					'text-light': '#6c757d',
 					success: '#28a745',
 				},
-				// New accent orange color palette
 				'accent-orange': {
-					DEFAULT: '#e03c20',
-					50: '#fef2f2',
-					100: '#fee2e2',
-					200: '#fecaca',
-					300: '#fca5a5',
-					400: '#f87171',
-					500: '#e03c20',
-					600: '#dc2626',
-					700: '#b91c1c',
-					800: '#991b1b',
-					900: '#7f1d1d'
+					DEFAULT: '#19d00b',
+					50: '#f0fdf0',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#19d00b',
+					600: '#14a809',
+					700: '#15803d',
+					800: '#166534',
+					900: '#14532d'
 				},
 				'handelsblatt': {
 					orange: '#ef6400',
@@ -54,19 +53,19 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				primary: {
-					DEFAULT: '#e03c20',
+			primary: {
+					DEFAULT: '#19d00b',
 					foreground: '#ffffff',
-					50: '#fef2f2',
-					100: '#fee2e2',
-					200: '#fecaca',
-					300: '#fca5a5',
-					400: '#f87171',
-					500: '#e03c20',
-					600: '#c73418',
-					700: '#b91c1c',
-					800: '#991b1b',
-					900: '#7f1d1d'
+					50: '#f0fdf0',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#19d00b',
+					600: '#14a809',
+					700: '#15803d',
+					800: '#166534',
+					900: '#14532d'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -229,12 +228,12 @@ export default {
 						filter: 'blur(0)'
 					}
 				},
-				'glow-pulse': {
+			'glow-pulse': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px rgba(224, 60, 32, 0.3)'
+						boxShadow: '0 0 20px rgba(25, 208, 11, 0.3)'
 					},
 					'50%': {
-						boxShadow: '0 0 40px rgba(224, 60, 32, 0.5)'
+						boxShadow: '0 0 40px rgba(25, 208, 11, 0.5)'
 					}
 				}
 			},
@@ -262,9 +261,9 @@ export default {
 				'medium': '0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 25px -5px rgba(0, 0, 0, 0.04)',
 				'strong': '0 10px 40px -10px rgba(0, 0, 0, 0.15), 0 4px 25px -5px rgba(0, 0, 0, 0.08)',
 				'glass': '0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04)',
-				'premium': '0 20px 60px -15px rgba(224, 60, 32, 0.2), 0 10px 30px -10px rgba(0, 0, 0, 0.1)',
-				'glow-primary': '0 0 30px rgba(224, 60, 32, 0.25), 0 0 60px rgba(224, 60, 32, 0.1)',
-				'glow-orange': '0 0 30px rgba(224, 60, 32, 0.25), 0 0 60px rgba(224, 60, 32, 0.1)',
+				'premium': '0 20px 60px -15px rgba(25, 208, 11, 0.2), 0 10px 30px -10px rgba(0, 0, 0, 0.1)',
+				'glow-primary': '0 0 30px rgba(25, 208, 11, 0.25), 0 0 60px rgba(25, 208, 11, 0.1)',
+				'glow-orange': '0 0 30px rgba(25, 208, 11, 0.25), 0 0 60px rgba(25, 208, 11, 0.1)',
 			},
 			backdropBlur: {
 				'xs': '2px',
