@@ -68,7 +68,7 @@ const Header = () => {
                 <img 
                   src={ghsLogo} 
                   alt="Valentin Heizöl" 
-                  className="h-20 transition-transform duration-300 group-hover:scale-105"
+                  className="h-28 transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
             </div>
@@ -132,7 +132,7 @@ const Header = () => {
               <img 
                 src={ghsLogo} 
                 alt="Valentin Heizöl" 
-                className="h-14"
+                className="h-18"
               />
             </Link>
           </div>
