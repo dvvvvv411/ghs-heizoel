@@ -1,6 +1,6 @@
 import { Mail, MapPin, Clock, ArrowUpRight, Sparkles, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import ghsLogo from '@/assets/ghs-logo.png';
+import ghsLogoFooter from '@/assets/ghs-logo-footer.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -30,7 +30,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1 space-y-6">
             <img 
-              src={ghsLogo} 
+              src={ghsLogoFooter} 
               alt="Valentin Heizöl" 
               className="h-20 lg:h-24"
             />
