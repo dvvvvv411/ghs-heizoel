@@ -1,48 +1,75 @@
 
 
-# Farbupdate: Emerald Green (#10b981)
+# Branding-Update: Valentin GmbH -> GHS Heizoel
 
-## Zusammenfassung
-Das aktuelle Neon-Gruen (#19d00b) wird durch ein modernes **Emerald Green #10b981** ersetzt -- ein elegantes, professionelles Gruen das bei vielen modernen Tech-Marken beliebt ist.
+## Uebersicht
+Alle Branding-Informationen werden von "Valentin GmbH" auf "GHS Beteiligungs GmbH" / "GHS Heizoel" umgestellt. Betroffen sind 15 Dateien.
 
-**Neue Farbpalette:**
-- Hauptfarbe: **#10b981** (Emerald)
-- Dunkel: **#059669** (Emerald Dark)
-- Hell: **#34d399** (Emerald Light)
+## Ersetzungs-Mapping
+
+| Alt | Neu |
+|-----|-----|
+| Valentin GmbH | GHS Beteiligungs GmbH |
+| Valentin Heizoel (Shopname) | GHS Heizoel |
+| Rheinallee 187 | Johannes-Kepler-Str. 14 |
+| 55120 Mainz | 55129 Mainz |
+| HRB 4 | HRB 3983 |
+| Julia Muendler | Florian Schmitt |
+| DE280303368 | DE243309984 |
+| info@valentin-heizoel.de | info@ghs-heizoel.de |
+| 06131-6365855 | 06131-6365853 |
+| valentin-heizoel.de | ghs-heizoel.de |
+| checkout.valentin-heizoel.de | checkout.ghs-heizoel.de |
 
 ## Betroffene Dateien
 
-### 1. `tailwind.config.ts`
-- `hill` Palette: #19d00b -> #10b981, #14a809 -> #059669, #2eef1a -> #34d399
-- `accent-orange` und `primary` Paletten: Komplette 50-900 Skala auf Emerald-Toene (Tailwind Emerald Scale)
-- `boxShadow`: Alle rgba(25, 208, 11, ...) -> rgba(16, 185, 129, ...)
-- `glow-pulse` Keyframe: rgba-Werte anpassen
+### 1. `index.html`
+- Title, meta description, keywords, author
 
-### 2. `src/index.css`
-- CSS Custom Properties: --hill-green -> #10b981, --hill-green-dark -> #059669, --hill-green-light -> #34d399
-- --gradient-mesh Werte anpassen
-- Focus ring: ring-[#19d00b] -> ring-[#10b981]
-- Gradient- und Glow-Utilities: Alle Farbwerte aktualisieren
+### 2. `src/pages/Index.tsx`
+- Helmet title und meta description
 
-### 3. `src/components/HeroSection.tsx`
-- Inline-Style Grid-Pattern: #19d00b -> #10b981
+### 3. `src/pages/Impressum.tsx`
+- Alle Firmendaten, Adresse, Telefon, E-Mail, HRB, USt-IdNr, Geschaeftsfuehrung
 
-### Farbmapping
-| Alt | Neu | Verwendung |
-|-----|-----|-----------|
-| #19d00b | #10b981 | Hauptfarbe |
-| #14a809 | #059669 | Dunkel/Hover |
-| #2eef1a | #34d399 | Hell/Akzent |
+### 4. `src/pages/AGB.tsx`
+- Helmet, Firmenname und Adresse im Fliesstext
 
-### Emerald 50-900 Skala
-- 50: #ecfdf5
-- 100: #d1fae5
-- 200: #a7f3d0
-- 300: #6ee7b7
-- 400: #34d399
-- 500: #10b981
-- 600: #059669
-- 700: #047857
-- 800: #065f46
-- 900: #064e3b
+### 5. `src/pages/Datenschutz.tsx`
+- Helmet, Firmenname, Adresse, E-Mail
 
+### 6. `src/pages/Widerrufsrecht.tsx`
+- Helmet, Firmenname, Adresse, E-Mail (3x im Text)
+
+### 7. `src/pages/AboutUs.tsx`
+- Helmet, Firmenname, Adresse, E-Mail, HRB, USt-IdNr
+
+### 8. `src/pages/Products.tsx`
+- Helmet title
+
+### 9. `src/pages/Services.tsx`
+- Helmet title
+
+### 10. `src/components/Header.tsx`
+- E-Mail, Telefon, alt-Texte fuer Logo
+
+### 11. `src/components/Footer.tsx`
+- Firmenname, E-Mail, Telefon, Adresse
+
+### 12. `src/components/CompanySection.tsx`
+- Firmenname im Text und alt-Text
+
+### 13. `src/components/ServiceContact.tsx`
+- E-Mail
+
+### 14. `src/components/DeliverySection.tsx`
+- E-Mail
+
+### 15. `src/components/PriceCalculator.tsx`, `HorizontalPriceCalculator.tsx`, `MobilePriceCalculator.tsx`
+- Checkout-URL Domain und Fehler-E-Mail
+
+## Technische Details
+- Einfache Suchen-und-Ersetzen-Aenderungen in allen Dateien
+- Keine strukturellen Aenderungen noetig
+- Checkout-URL Domain wird von `checkout.valentin-heizoel.de` auf `checkout.ghs-heizoel.de` geaendert
+- Tel-Links: `+4961316365855` wird zu `+4961316365853`
