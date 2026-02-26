@@ -8,8 +8,8 @@ const Datenschutz = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Datenschutzerklärung | Valentin Heizöl - DSGVO-konform</title>
-        <meta name="description" content="Datenschutzerklärung der Valentin GmbH gemäß DSGVO. Informationen zur Datenverarbeitung, Ihren Rechten und Kontaktmöglichkeiten für Datenschutzanfragen." />
+        <title>Datenschutzerklärung | GHS Heizöl - DSGVO-konform</title>
+        <meta name="description" content="Datenschutzerklärung der GHS Beteiligungs GmbH gemäß DSGVO. Informationen zur Datenverarbeitung, Ihren Rechten und Kontaktmöglichkeiten für Datenschutzanfragen." />
       </Helmet>
       <Header />
 
@@ -31,12 +31,12 @@ const Datenschutz = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="font-semibold">Valentin GmbH</p>
-                <p>Rheinallee 187</p>
-                <p>55120 Mainz</p>
+                <p className="font-semibold">GHS Beteiligungs GmbH</p>
+                <p>Johannes-Kepler-Str. 14</p>
+                <p>55129 Mainz</p>
                 <p>Deutschland</p>
                 <p className="mt-4">
-                  <span className="font-semibold">E-Mail:</span> info@valentin-heizoel.de
+                  <span className="font-semibold">E-Mail:</span> info@ghs-heizoel.de
                 </p>
               </div>
             </CardContent>
@@ -150,7 +150,7 @@ const Datenschutz = () => {
                 Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte kontaktieren Sie uns unter:
               </p>
               <div className="mt-3 space-y-1 text-gray-700 text-sm">
-                <p><span className="font-semibold">E-Mail:</span> info@valentin-heizoel.de</p>
+                <p><span className="font-semibold">E-Mail:</span> info@ghs-heizoel.de</p>
               </div>
             </CardContent>
           </Card>
