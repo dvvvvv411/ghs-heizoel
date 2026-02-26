@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="lg:col-span-1 space-y-6">
             <img 
               src={ghsLogoFooter} 
-              alt="Valentin Heizöl" 
+              alt="GHS Heizöl" 
               className="h-20 lg:h-24"
             />
             <p className="text-gray-400 leading-relaxed">
