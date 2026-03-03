@@ -1,18 +1,18 @@
 
 
-# Shop-ID aktualisieren
+# Heizölpreise aktualisieren
 
 ## Aenderungen
 
-In allen 3 Preisrechner-Komponenten wird die Shop-ID von `5cb5aa20-02d3-4297-a799-19cf1b238a1d` auf `1cafe1ae-a1b5-4265-b146-1bf902702645` geaendert:
+In allen 3 Preisrechner-Komponenten werden die Literpreise angepasst:
 
-1. **`src/components/PriceCalculator.tsx`** (Zeile 22)
-2. **`src/components/HorizontalPriceCalculator.tsx`** (Zeile 19)
-3. **`src/components/MobilePriceCalculator.tsx`** (Zeile 40)
+- **Standard**: 0.60 → 0.90
+- **Premium**: 0.63 → 0.93
 
-Die Checkout-URL zeigt bereits auf `checkout.ghs-heizoel.de` -- keine Aenderung noetig.
+### Betroffene Dateien
+1. `src/components/PriceCalculator.tsx`
+2. `src/components/HorizontalPriceCalculator.tsx`
+3. `src/components/MobilePriceCalculator.tsx`
 
-## Technische Details
-- Einfache String-Ersetzung der Shop-ID in 3 Dateien
-- Keine strukturellen Aenderungen
+Einfache Zahlenersetzung, keine strukturellen Aenderungen.
 
